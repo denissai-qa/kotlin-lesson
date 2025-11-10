@@ -1,4 +1,4 @@
-package org.example.kotlinin.lessons.lesson03.homework
+package org.example.org.example.kotlinin.lessons.lesson03.homework
 const val hourse: Int = 8
 
 class Wending {// Название мероприятия
@@ -8,7 +8,7 @@ val name: String = "Wending"
     //Место проведения
     val city: String = "Минск"
     // Подробный бюджет мероприятия, включая расходы на оборудование, кейтеринг и другие операционные расходы.
-    var many: Int = 1000
+ private var many: Int = 1000 + 5
     //Количество участников
     var people: Int = 25
     // Длительность хакатона
